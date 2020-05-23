@@ -8,22 +8,23 @@ public class Main {
         // Variables declaration
         String number; // Number typed by the user
         int value=0;
-        int flag;
+        int flag=0;
         System.out.print("Insert an Hexadecimal Number: -> ");
         number= TextIO.getln().toUpperCase();
         //System.out.println(number);
 
         for(int i=0;i< number.length();i++){
             flag = hexValue(number.charAt(i));
-            if (flag == -1){
-                System.out.println(" invalid Hex...");
-                flag=0;
+            if (flag == -1)
                 break;
-            }
             else
             value = value*16 + flag;
         }// end for
-        System.out.println("Your " + number + " converted to decimal is: -> " + value);
+        if (flag==-1)
+            System.out.println(" invalid Hex...");
+         //   flag = 0;
+        else
+            System.out.println("Your " + number + " converted to decimal is: -> " + value);
     }// end main
 
     static int hexValue (char Char_number){
