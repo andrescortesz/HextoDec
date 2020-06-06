@@ -19,11 +19,11 @@ Of course, this is not valid if str contains any characters that are not hexadec
 --------------
 **Discussion:**
 
-Lets define the following steps to resolve exercise: 
+Lets define the following steps to solve the exercise:
 - Ask the user to input hexadecimal number. // Solicitar al usuario ingresar el numero hexadecimal
-	Use class TextIO to get the entered informaion. // Se usa la clase TestIO para tomar la informacion ingresada. // Also we capitalize with the method toUpperCase. // También se capitaliza para evitar errores de ingreso.
+    - Use class TextIO to get the entered informaion. // Se usa la clase TestIO para tomar la informacion ingresada. // Also we capitalize with the method toUpperCase. // También se capitaliza para evitar errores de ingreso.
 - Store number. // Almacenar numero.
-	 Define a string variable to store the number. // Para almacenar el numero ingresado por el usuario en una variable String.
+	- Define a string variable to store the number. // Para almacenar el numero ingresado por el usuario en una variable String.
 -  Check each hexadeciaml character. // Verificar que tenga caracteres hexadecimales
-	Define a method (hexValue) converter method using switch. Returns a decimal number of int type. // Se crea un método para verificar cada carácter usando Switch (Retorna numero DECIMAL de tipo entero) 
+	- Define a method (hexValue) converter method using switch. Returns a decimal number of int type. // Se crea un método para verificar cada carácter usando Switch (Retorna numero DECIMAL de tipo entero) 
 - Show result. // Mostrar numero convertido.
