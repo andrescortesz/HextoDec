@@ -21,7 +21,7 @@ Of course, this is not valid if str contains any characters that are not hexadec
 
 Lets define the following steps to solve the exercise:
 - Ask the user to input hexadecimal number. // Solicitar al usuario ingresar el numero hexadecimal
-    - Use class TextIO to get the entered informaion. // Se usa la clase TestIO para tomar la informacion ingresada. // Also we capitalize with the method toUpperCase. // También se capitaliza para evitar errores de ingreso.
+    - Use class TextIO to get the entered informaion. Also we capitalize with the method toUpperCase. // Se usa la clase TestIO para tomar la informacion ingresada. También se capitaliza para evitar errores de ingreso.
 - Store number. // Almacenar numero.
 	- Define a string variable to store the number. // Para almacenar el numero ingresado por el usuario en una variable String.
 -  Check each hexadeciaml character. // Verificar que tenga caracteres hexadecimales
